@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.AbsolutePage">
+<AbsoluteLayout>
+    <BoxView Color="Red"
+        AbsoluteLayout.LayoutBounds="0.1,0.5,0.4,120"
+        AbsoluteLayout.LayoutFlags="XProportional, WidthProportional" />
+    <StackLayout AbsoluteLayout.LayoutBounds="1,1,0.5,0.92" 
+        AbsoluteLayout.LayoutFlags="PositionProportional, SizeProportional">
+        <Label Text="Two line content is placed here this is a very large text" />
+        <Label Text="Another label" TextColor="Red" />
+    </StackLayout>
+    <BoxView Color="Red"
+        AbsoluteLayout.LayoutBounds="0.8,0.18,0.4,1"
+        AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" />
+</AbsoluteLayout>
+</ContentPage>

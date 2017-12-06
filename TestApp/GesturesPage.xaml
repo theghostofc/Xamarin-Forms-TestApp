@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.GesturesPage">
+	<AbsoluteLayout>
+        <Button x:Name="blueButton" Text="Blue" BackgroundColor="Blue" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="PositionProportional, SizeProportional" Clicked="BlueHandle_Clicked" />
+        <Button x:Name="greenButton" Text="Green" BackgroundColor="Green" AbsoluteLayout.LayoutBounds="0.5,0,0.6,1" AbsoluteLayout.LayoutFlags="PositionProportional, SizeProportional" Clicked="GreenHandle_Clicked" />
+        <Label x:Name="myLabel" Text="Label" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0,0.45,1,0.6" AbsoluteLayout.LayoutFlags="PositionProportional, SizeProportional">
+<!--            <Label.GestureRecongizers>
+                <TappedGestureRecognizer Tapped="Handle_Tapped" />
+            </Label.GestureRecongizers>-->
+        </Label>
+        
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TestApp" x:Class="TestApp.TestAppPage">
+    <TabbedPage.Children>
+        <local:RelativePage Icon="square.png" Title="Relative" />
+        <local:AbsolutePage Icon="square.png" Title="Absolute" />
+        <local:GridPage Icon="square.png" Title="Grid" />
+    </TabbedPage.Children>
+</TabbedPage>
+
